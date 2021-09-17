@@ -1,0 +1,104 @@
+<main>
+	<header class="top-row">
+		<label class="sheet-input_label" data-i18n="Unit-Name">Unit name</label><input name="attr_unit_name" class="sheet-text_input" style="width: 200px;" type="text">
+		<label class="sheet-input_label" data-i18n="Unit-Model">Unit model</label><input name="attr_unit_model" class="sheet-text_input" style="width: 80px;" type="text">
+		<label class="sheet-input_label" data-i18n="Pilot-ID">Callsign</label><input name="attr_pilot_id" class="sheet-text_input" style="width: 200px;" type="text">
+	</header>
+	<section class="mid-row">
+		<div class="mid-col-left">
+			<label class="sheet-input_label" data-i18n="Unit-Type">TP</label>
+			<select name="attr_unit_type">
+				<option value="BM">BM</option>
+				<option value="IM">IM</option>
+				<option value="PM">PM</option>
+				<option value="CV">CV</option>
+				<option value="SV">SV</option>
+				<option value="AF">AF</option>
+				<option value="CF">CF</option>
+				<option value="DS">DS</option>
+				<option value="DA">DA</option>
+				<option value="SC">SC</option>
+				<option value="MS">MP</option>
+				<option value="CI">CI</option>
+				<option value="BA">BA</option>
+			</select>
+			<label class="sheet-input_label" data-i18n="Unit-Size">SZ</label>
+			<select name="attr_unit_size">
+				<option value="Small">1</option>
+				<option value="Medium">2</option>
+				<option value="Heavy">3</option>
+				<option value="Assault">4</option>
+			</select>
+		</div>
+		<div class="mid-col-right"></div>
+	</section>
+	<section class="bottom-row">
+		<div class="bottom-col-left">
+			<label class="sheet-input_label" data-i18n="Unit-SPA">Special</label><textarea name="attr_spa"></textarea>
+		</div>
+		<div class="bottom-col-right">
+			<div class="critical-wrapper">
+				<div class="row-container">
+					<span class="sheet-input_label" data-i18n="Crit-Engine">Engine</span>
+					<input type="checkbox" name="attr_crit_engine">
+				</div>
+				<div class="row-container">
+					<span class="sheet-input_label" data-i18n="Crit-FireC">Fire Control</span>
+					<input type="checkbox" name="attr_crit_firec1">
+					<input type="checkbox" name="attr_crit_firec2">
+					<input type="checkbox" name="attr_crit_firec3">
+					<input type="checkbox" name="attr_crit_firec4">
+				</div>
+				<div class="row-container">
+					<span class="sheet-input_label" data-i18n="Crit-MP">MP</span>
+					<input type="checkbox" name="attr_crit_mp1">
+					<input type="checkbox" name="attr_crit_mp2">
+					<input type="checkbox" name="attr_crit_mp3">
+					<input type="checkbox" name="attr_crit_mp4">
+				</div>
+				<div class="row-container">
+					<span class="sheet-input_label" data-i18n="Crit-Weapons">Weapons</span>
+					<input type="checkbox" name="attr_crit_weap1">
+					<input type="checkbox" name="attr_crit_weap2">
+					<input type="checkbox" name="attr_crit_weap3">
+					<input type="checkbox" name="attr_crit_weap4">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	
+	
+
+</main>
+<!--
+	Valeurs à faire figurer :
+	PV: Point Value, Valeur chiffrée
+	TP: Type, Code à deux lettres
+	SZ: Size, 1/2/3/4
+	TMM: Target Movement Modifier, Valeur chiffrée
+	MV: Movement, Valeur chiffrée exprimée en pouces
+	MVtype: code d'une lettre de type de mouvement
+	Role: Role de combat typique, Choix dans une liste de valeurs (Brawler, Sniper, Skirmisher, etc)
+	Skill: Valeur chiffrée, entier entre 0 et 7
+	Damage value, Short range: Valeur chiffrée
+	Damage value, Medium range: Valeur chiffrée
+	Damage value, Long range: Valeur chiffrée
+	OV: Overheat value, Valeur chiffrée
+	Heat scale: Échelle de valeurs entières entre 0 et 4 (shutdown)
+	A: Armor, Checkmarks en nombre variable
+	S: Structure, Checkmarks en nombre variable
+	Special: Special abilities, champ texte libre
+
+	Pilot name: champ texte libre
+	Pilot abilities: champ texte libre
+
+-->

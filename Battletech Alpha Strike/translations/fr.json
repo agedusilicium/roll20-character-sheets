@@ -1,0 +1,12 @@
+{
+	"Unit-Name" : "Unité",
+	"Unit-Model" : "Modèle",
+	"Pilot-ID" : "Nom de guerre",
+	"Crit-Engine" : "Moteur",
+	"Crit-FireC" : "Visée",
+	"Crit-MP" : "Propulsion",
+	"Crit-Weapons" : "Armes",
+	"Unit-Type" : "TP",
+	"Unit-Size" : "SZ",
+	"Unit-SPA" : "Spécial"
+}

@@ -1,0 +1,12 @@
+{
+	"Unit-Name" : "Unit",
+	"Unit-Model" : "Model",
+	"Pilot-ID" : "Callsign",
+	"Crit-Engine" : "Engine",
+	"Crit-FireC" : "Fire Control",
+	"Crit-MP" : "MP",
+	"Crit-Weapons" : "Weapons",
+	"Unit-Type" : "TP",
+	"Unit-Size" : "SZ",
+	"Unit-SPA" : "Special"
+}
